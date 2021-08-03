@@ -7,6 +7,8 @@ header >h1{
     text-align: center;
     color:white;
     font-family:  sans-serif;
+    background-color: #ed9121;
+    padding: 20px;
 }
 html,
 body {
@@ -68,6 +70,7 @@ select {
 
 .custom-select {
     display: inline-block;
+    margin: 20px;
     select {
         -webkit-appearance: none;
         -moz-appearance: none;
@@ -105,16 +108,16 @@ select {
 #page {
     font-family: "Segoe UI", Arial, sans-serif;
     text-align: center;
-    height: 500px;
+    height: 800px;
     width: 500px;
-    margin: auto;
+    margin: 50px auto auto auto;
     #menu {
-        margin: auto;
+        margin: 120px auto auto auto;
         padding: 10px;
         height: 65px;
         box-sizing: border-box;
         h1 {
-            margin: 0;
+            margin: 100px;
             margin-bottom: 10px;
             font-weight: 600;
             font-size: 3.2rem;
